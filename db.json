@@ -1,0 +1,125 @@
+{
+  "Datahub": [
+    {
+      "id": 1,
+      "Name": "Virat Kohli",
+      "Age": "33",
+      "Runs": 10000,
+      "Fiftys": 25,
+      "Hundreds": 2
+    },
+    {
+      "id": 2,
+      "Name": "Rohit Sharma",
+      "Age": "34",
+      "Runs": "11000",
+      "Fiftys": 30,
+      "Hundreds": 3
+    },
+    {
+      "id": 3,
+      "Name": "Surya Kumar Yadav",
+      "Age": "32",
+      "Runs": "5000",
+      "Fiftys": 10,
+      "Hundreds": 2
+    },
+    {
+      "id": 4,
+      "Name": "K L Rahul",
+      "Age": "30",
+      "Runs": "7000",
+      "Fiftys": 21,
+      "Hundreds": 2
+    },
+    {
+      "id": 5,
+      "Name": "Hardik Pandya",
+      "Age": "28",
+      "Runs": "6500",
+      "Fiftys": 23,
+      "Hundreds": 0
+    },
+    {
+      "id": 7,
+      "Name": "Devon Conway",
+      "Age": "30",
+      "Runs": "1200",
+      "Fiftys": 8,
+      "Hundreds": 1
+    },
+    {
+      "id": 10,
+      "Name": "Jos Buttler",
+      "Age": "31",
+      "Runs": "6500",
+      "Fiftys": 12,
+      "Hundreds": 2
+    }
+  ],
+  "SignupUsers": [
+    {
+      "fullName": "Mohit Kumar",
+      "email": "mohitkumar@gmail.com",
+      "password": "12345",
+      "mobile": "9936634894",
+      "id": 1
+    },
+    {
+      "fullName": "Kirti Azad",
+      "email": "k.azad@gmail.com",
+      "password": "12345",
+      "mobile": "9986542310",
+      "id": 2
+    },
+    {
+      "fullName": "Raj Sharma",
+      "email": "rbm_dev@gmail.com",
+      "password": "rbm_dev",
+      "mobile": "8910987567",
+      "id": 3
+    },
+    {
+      "fullName": "Shahid Kapoor",
+      "email": "iamshahid@yahoo.com",
+      "password": "123456",
+      "mobile": "8825461325",
+      "id": 4
+    },
+    {
+      "fullName": "Kunal Deshmukh",
+      "email": "kd123@gmail.com",
+      "password": "kd123",
+      "mobile": "4444444444",
+      "id": 5
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "fullName": "Fester Adams",
+      "email": "fester@netflix.com",
+      "password": "fester",
+      "mobile": "99998882224",
+      "id": 9
+    }
+  ]
+}

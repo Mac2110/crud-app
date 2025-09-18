@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" style="padding:12px">CrudApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/Datahub/home">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/Datahub/create">Add Details</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Datahub/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Datahub/resume">Resume</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/Datahub/contacts">Contacts</a>
+        </li>
+    </ul>
+  </div>
+  <button class="btn btn-warning" id="add" routerLink="/Datahub/create">Add Player</button>
+  <button class="btn btn-info" id="out" routerLink="/login">LogOut</button>
+</nav>
+<div class="container">
+<form autocomplete="false">
+  <div class="form-group">
+    <label for="egName">Name</label>
+    <input type="name" class="form-control" id="InputName" name="Name" [(ngModel)]="dataFormHub.Name"  placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="egAge">Age</label>
+    <input type="email" class="form-control" id="InputAge" name="Age" [(ngModel)]="dataFormHub.Age" placeholder="Enter Age">
+  </div>
+  <div class="form-group">
+      <label for="egRuns">Runs</label>
+      <input type="text" class="form-control" id="InputRuns" name="Runs" [(ngModel)]="dataFormHub.Runs" placeholder="Enter Runs">
+    </div>
+  <div class="form-group">
+      <label for="eg50s">50s</label>
+      <input type="number" class="form-control" id="Input50s" name="Fiftys" [(ngModel)]="dataFormHub.Fiftys" placeholder="Enter 50s">
+  </div>
+  <div class="form-group">
+      <label for="eg100s">100s</label>
+      <input type="number" class="form-control" id="Input100s" name="Hundreds" [(ngModel)]="dataFormHub.Hundreds" placeholder="Enter 100s">
+  </div>
+    <br>
+    <button type="submit" class="btn btn-primary" (click)="postData()">Submit</button>
+  </form>
+</div>

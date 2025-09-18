@@ -1,0 +1,26 @@
+<div class="container">
+    <form autocomplete="false">
+        <div class="form-group">
+          <label for="egName">Name</label>
+          <input type="name" class="form-control" id="InputName" name="Name" [(ngModel)]="dataFormHub.Name"  placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="egAge">Age</label>
+          <input type="email" class="form-control" id="InputAge" name="Age" [(ngModel)]="dataFormHub.Age" placeholder="Enter Age">
+        </div>
+        <div class="form-group">
+            <label for="egRuns">Runs</label>
+            <input type="number" class="form-control" id="InputRuns" name="Runs" [(ngModel)]="dataFormHub.Runs" placeholder="Enter Runs">
+          </div>
+        <div class="form-group">
+            <label for="eg50s">50s</label>
+            <input type="number" class="form-control" id="Input50s" name="50s" [(ngModel)]="dataFormHub.Fiftys" placeholder="Enter 50s">
+        </div>
+        <div class="form-group">
+            <label for="eg100s">100s</label>
+            <input type="number" class="form-control" id="Input100s" name="100s" [(ngModel)]="dataFormHub.Hundreds" placeholder="Enter 100s">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" (click)="update()">Submit</button>
+      </form>
+    </div>
